@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>druzyCMS</title>
+	<!-- semantic ui -->
+	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+	<!-- froala editor styles (OEM License) -->
+	<link href='css/froala_editor.min.css' rel='stylesheet' type='text/css' />
+	<link href='css/froala_style.min.css' rel='stylesheet' type='text/css' />
+	<!-- admin only: styles -->
+	<link rel="stylesheet" href="css/admin.css">
+	<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<!-- semantic ui scripts -->
+	<script src="js/semantic.min.js"></script>
+	<!-- admin only: froala editor scripts (OEM License) -->
+	<script type='text/javascript' src='js/froala_editor.min.js'></script>
+	<!-- admin only: scripts -->
+	<script src="js/admin.js"></script>
+
+</head>
+<body>
+
+	<!-- Posts List -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="sixteen wide computer column">
+
+				<h1 class="ui header">{Blog Name}
+					<div class="sub header">{Blog tagline vero cumque a sapiente delectus}</div>
+				</h1>
+				<div class="ui menu">
+					<a class="item">Home</a>
+					<a class="item">About</a>
+					<a class="item">Contact</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="ui stackable grid row">
+			<div class="ten wide tablet eleven wide computer column">
+
+				<div class="ui items">
+					<div class="item">
+						<div class="ui small image">
+							<img src="img/image.png">
+						</div>
+						<div class="content">
+							<div class="header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="meta">
+								<span class="author">Crystal Finch</span>
+								<span class="date">January 11, 2014</span>
+							</div>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus?</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="ui small image">
+							<img src="img/image.png">
+						</div>
+						<div class="content">
+							<div class="header">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque.</div>
+							<div class="meta">
+								<span class="author">Crystal Finch</span>
+								<span class="date">May 11, 2014</span>
+							</div>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus?</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="ui small image">
+							<img src="img/image.png">
+						</div>
+						<div class="content">
+							<div class="header">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</div>
+							<div class="meta">
+								<span class="author">Crystal Finch</span>
+								<span class="date">September 14, 2013</span>
+							</div>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="ui pagination menu">
+					<a class="item" title="Prev"><i class="angle left icon"></i></a>
+					<a class="active item">1</a>
+					<div class="disabled item">...</div>
+					<a class="item">8</a>
+					<a class="item">9</a>
+					<a class="item">Last</a>
+					<a class="item" title="Next"><i class="angle right icon"></i></a>
+				</div>
+
+			</div>
+			<div class="six wide tablet five wide computer column">
+
+				<p>{Blog Description} Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+
+				<h3 class="ui header">Recent Posts</h3>
+				<div class="ui relaxed divided list">
+					<a href="" class="item">Aspernatur aliquam odio</a>
+					<a href="" class="item">Assumenda magnam vel illo eos voluptate</a>
+					<a href="" class="item">Sapiente delectus</a>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="ui divider"></div>
+			<p>&copy; 2017 {Blog Title}</p>
+		</footer>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Post -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="sixteen wide computer column">
+
+				<h1 class="ui header">{Blog Name}
+					<div class="sub header">{Blog tagline vero cumque a sapiente delectus}</div>
+				</h1>
+				<div class="ui menu">
+					<a class="item">Home</a>
+					<a class="item">About</a>
+					<a class="item">Contact</a>
+				</div>
+
+			</div>
+		</div>
+		<div class="ui stackable grid row">
+			<div class="ten wide tablet eleven wide computer column">
+
+				<h2 class="ui header">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					<div class="sub header">January 11, 2014 &bull; Crystal Finch</div>
+				</h2>
+
+				<article style="margin-right:80px;">
+					<img src="img/image.png" class="ui medium floated left image" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+					<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+				</article>
+				<br><br>
+				<div class="ui horizontal list">
+					<div class="disabled item"><i class="tag icon"></i>Tags:</div>
+					<a href="" class="item"><span class="ui label">fun</span></a>
+					<a href="" class="item"><span class="ui label">inspirational</span></a>
+					<a href="" class="item"><span class="ui label">ideas</span></a>
+				</div>
+
+			</div>
+			<div class="six wide tablet five wide computer column">
+
+				<p>{Blog Description} Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+
+				<h3 class="ui header">Recent Posts</h3>
+				<div class="ui relaxed divided list">
+					<a href="" class="item">Aspernatur aliquam odio</a>
+					<a href="" class="item">Assumenda magnam vel illo eos voluptate</a>
+					<a href="" class="item">Sapiente delectus</a>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="ui divider"></div>
+			<p>&copy; 2017 {Blog Title}</p>
+		</footer>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- 400 Error -->
+	<div class="ui container">
+		<div class="ui two column centered grid">
+			<div class="fifteen wide phone seven wide tablet five wide computer column center aligned">
+				<h1 class="ui huge header">404</h1>
+				<p>Page Not Found</p>
+				<p>Sorry, but the page you are looking for has not been found. Check that the URL you are trying to reach is correct. Otherwise, please try again later.</p>
+				<form class="ui form">
+					<div class="ui icon input">
+						<input class="prompt" type="text" placeholder="Search this site&hellip;">
+						<i class="search icon"></i>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- 500 Error -->
+	<div class="ui container">
+		<div class="ui two column centered grid">
+			<div class="fifteen wide phone seven wide tablet five wide computer column center aligned">
+				<h1 class="ui huge header">500</h1>
+				<p>Internal Server Error</p>
+				<p>The server encountered something unexpected that didn't allow it to complete the request. We apologize.</p>
+				<button class="ui tiny button">Go to Home</button>
+				<button class="ui tiny button">Go to Dashboard</button>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br>
+	<hr>
+	<h1>(Users)</h1>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Sign Up -->
+	<div class="ui container">
+
+		<div class="ui two column centered stackable grid">
+			<div class="eight wide tablet six wide computer five wide large screen column">
+
+				<h1 class="ui huge center aligned header">Sign Up</h1>
+				<div class="ui fluid two item stackable mini menu">
+					<a class="active item" data-tab="emailSignUp">Email</a>
+					<a class="item" data-tab="facebookSignUp">Facebook</a>
+				</div>
+
+				<div class="ui active tab" data-tab="emailSignUp">
+					<form action="/signup" method="post" class="ui form">
+						<div class="error required field">
+							<label for="emailEmailSignUp">Email</label>
+							<input type="email" name="emailEmailSignUp">
+							<div class="ui pointing red basic label">
+							 	Email is required
+							</div>
+						</div>
+						<div class="ui error mini message" style="display:block">
+							<div class="header"><i class="warning sign icon"></i>Invalid Email</div>
+							<p>Please enter a valid email address.</p>
+						</div>
+						<div class="error required field">
+							<label for="passwordEmailSignUp">Password</label>
+							<input type="text" name="passwordEmailSignUp">
+							<div class="ui pointing red basic label">
+							 	Password is required
+							</div>
+						</div>
+						<div class="ui success mini message" style="display:block">
+							<div class="header"><i class="check icon"></i>Strong Password</div>
+						</div>
+						<div class="ui warning mini message" style="display:block">
+							<div class="header"><i class="warning icon"></i>Password Too Short</div>
+							<p>Must be at least 6 characters long.</p>
+						</div>
+						<div class="ui error mini message" style="display:block">
+							<div class="header"><i class="warning sign icon"></i>Weak Password</div>
+							<p>Try adding a mixture of uppercase letters, lowercase letters, numbers and special characters.</p>
+						</div>
+						<button class="ui primary button" type="submit">Sign Up</button>
+					</form>
+				</div>
+
+				<div class="ui tab" data-tab="facebookSignUp">
+					<form action="/oauth/facebook" method="post" class="ui form">
+						<div class="required field">
+							<label for="emailFacebookSignUp">Email</label>
+							<input type="email" name="emailFacebookSignUp">
+						</div>
+						<div class="required field">
+							<label for="passwordFacebookSignUp">Password</label>
+							<input type="text" name="passwordFacebookSignUp">
+						</div>
+						<button class="ui primary button" type="submit">Sign Up via Facebook</button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Sign In -->
+	<div class="ui container">
+		<div class="ui two column centered grid">
+			<div class="fourteen wide phone seven wide tablet five wide computer column">
+
+				<div class="ui segment centered">
+					<h1 class="ui huge center aligned header">Sign In</h1>
+					<form class="ui form">
+						<div class="required field">
+							<label for="emailSignIn">Email</label>
+							<input type="text" name="emailSignIn">
+						</div>
+						<div class="required field">
+							<label for="passwordSignIn">Password</label>
+							<input type="text" name="passwordSignIn">
+						</div>
+						<button class="ui primary button" type="submit">Sign In</button>
+					</form>
+				</div>
+
+				<h2 class="ui center aligned header">Forget your password?</h2>
+				<p>Enter your email to reset your password.</p>
+				<form class="ui form">
+					<div class="inline field">
+						<!-- <label for="emailSignIn">Email</label> -->
+						<input type="text" name="emailSignIn" placeholder="Email">
+						<button class="ui primary button" type="submit">Reset</button>
+					</div>
+					<div class="ui success small message" style="display:block">
+						<div class="header"><i class="check icon"></i>Password Reset Email Sent</div>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<br><br><br>
+	<hr>
+	<h1>(Signed In)</h1>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Dashboard -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="active item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">Dashboard
+					<div class="sub header">Welcome, {User}!</div>
+					<br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="sixteen wide tablet nine wide computer column">
+
+						<div class="ui top attached header">
+							<h2 class="ui small header">Recent Posts</h2>
+						</div>
+						<div class="ui bottom attached segment">
+							<div class="ui relaxed divided list">
+								<div class="item">
+									<div class="content">
+										<a class="header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+										<div class="description">January 11, 2014</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="content">
+										<a class="header">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque</a>
+										<div class="description">May 11, 2014</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="content">
+										<a class="header">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</a>
+										<div class="description">September 14, 2013</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="ui top attached header">
+							<h2 class="ui small header">Recent Pages</h2>
+						</div>
+						<div class="ui bottom attached segment">
+							<div class="ui relaxed divided list">
+								<div class="item">
+									<div class="content">
+										<a class="header">About</a>
+										<div class="description">January 11, 2014</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="content">
+										<a class="header">Contact</a>
+										<div class="description">May 11, 2014</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="sixteen wide tablet six wide computer column">
+
+						<div class="ui top attached header">
+							<h2 class="ui small header">Recent Files</h2>
+						</div>
+						<div class="ui bottom attached segment">
+							<div class="ui relaxed divided list">
+								<div class="item">
+									<div class="content">
+										<div class="header">
+											<i class="video camera icon"></i>
+											<a href="">image1-and-another-something-an-derp.png</a>
+										</div>
+										<div class="description">Uploaded Apr 12, 2017</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="content">
+										<div class="header">
+											<i class="image icon"></i>
+											<a href="">image1.png</a>
+										</div>
+										<div class="description">Uploaded May 20, 2016</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Profile -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="active item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">My Profile
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="seven wide tablet five wide computer column">
+
+						<div class="ui special cards">
+							<div class="card">
+								<div class="dimmable image">
+									<div class="ui inverted dimmer">
+										<div class="content">
+											<div class="center">
+												<div class="ui primary button">Edit Image</div>
+											</div>
+										</div>
+									</div>
+									<img src="img/image.png">
+								</div>
+								<div class="content">
+									<a class="header">Crystal Finch</a>
+									<div class="meta">
+										<span class="date">Administrator</span>
+									</div>
+								</div>
+								<div class="extra content">
+									<a><i class="pin icon"></i>2 Posts</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="fourteen wide tablet nine wide computer column">
+
+						<div class="ui segment">
+							<form class="ui form">
+								<div class="field">
+									<label for="firstNameProfile">First Name</label>
+									<input type="text" name="firstNameProfile" value="Crystal">
+								</div>
+								<div class="field">
+									<label for="lastNameProfile">Last Name</label>
+									<input type="text" name="lastNameProfile" value="Finch">
+								</div>
+								<div class="required field error">
+									<label for="emailProfile">Email</label>
+									<input type="email" name="emailProfile" value="crystal@somewhere.com">
+									<div class="ui pointing red basic label">
+										Email is required
+									</div>
+								</div>
+								<!--<div class="field">
+									<label for="usernameProfile">Username</label>
+									<input type="text" name="usernameProfile" value="crystalfinch" disabled>
+								</div>-->
+								<div class="field">
+									<label for="passwordProfile">Password</label>
+									<input type="password" name="passwordProfile" value="" disabled>
+								</div>
+								<div class="ui success mini message" style="display:block">
+									<div class="header"><i class="check icon"></i>Strong Password</div>
+								</div>
+								<div class="ui warning mini message" style="display:block">
+									<div class="header"><i class="warning icon"></i>Password Too Short</div>
+									<p>Must be at least 6 characters long.</p>
+								</div>
+								<div class="ui error mini message" style="display:block">
+									<div class="header"><i class="warning sign icon"></i>Weak Password</div>
+									<p>Try adding a mixture of uppercase letters, lowercase letters, numbers and special characters.</p>
+								</div>
+								<button class="ui primary button">Save Changes</button>
+								<button class="ui button">Cancel</button>
+							</form>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Settings -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="active item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">Settings
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="fifteen wide tablet fourteen wide computer column">
+						<div class="ui segment">
+
+							<form class="ui form">
+								<div class="ten wide tablet eight wide computer field">
+									<label for="blogName">Blog Name</label>
+									<input type="text" name="blogName" value="Blog Name">
+								</div>
+								<div class="field">
+									<label for="tagline">Blog Tagline</label>
+									<input type="text" name="tagline" value="Blog tagline vero cumque a sapiente delectus">
+								</div>
+								<div class="field">
+									<label for="blogDesc">Blog Description</label>
+									<textarea name="blogDesc" class="froala">
+										{Blog Description} Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.
+									</textarea>
+								</div>
+								<button class="ui primary button">Save Changes</button>
+								<button class="ui button">Cancel</button>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Posts -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="active item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<br>
+				<div class="ui stackable grid row">
+					<div class="ten wide column">
+						<h1 class="ui header">Posts
+							<br><br>
+						</h1>
+					</div>
+					<div class="six wide column right aligned">
+						<button class="ui primary button">
+							<i class="plus icon"></i>New Post
+						</button>
+					</div>
+				</div>
+
+				<div class="ui stackable grid row">
+					<div class="sixteen wide column">
+
+						<table class="ui striped table">
+							<thead>
+								<tr>
+									<th>Title</th>
+									<th class="three wide center aligned">Author</th>
+									<th class="four wide center aligned">Date</th>
+									<th class="three wide right aligned"><!--Actions--></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="top aligned">
+									<td><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+									<td class="center aligned">Crystal Finch</td>
+									<td class="center aligned">Jan 11, 2014 9:00AM</td>
+									<td class="right aligned">
+										<a href="" title="View"><i class="eye icon"></i></a>
+										<a href="" title="Edit"><i class="write icon"></i></a>
+										<a href="" title="Delete"><i class="trash icon"></i></a>
+									</td>
+								</tr>
+								<tr class="top aligned">
+									<td><a href="">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque.</a></td>
+									<td class="center aligned">Crystal Finch</td>
+									<td class="center aligned">May 11, 2014 10:15AM</td>
+									<td class="right aligned">
+										<a href="" title="View"><i class="eye icon"></i></a>
+										<a href="" title="Edit"><i class="write icon"></i></a>
+										<a href="" title="Delete"><i class="trash icon"></i></a>
+									</td>
+								</tr>
+								<tr class="top aligned">
+									<td><a href="">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</a></td>
+									<td class="center aligned">Crystal Finch</td>
+									<td class="center aligned">Sept 14, 2013 2:00PM</td>
+									<td class="right aligned">
+										<a href="" title="View"><i class="eye icon"></i></a>
+										<a href="" title="Edit"><i class="write icon"></i></a>
+										<a href="" title="Delete"><i class="trash icon"></i></a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<br>
+
+						<div class="ui pagination floated right menu">
+							<a class="item" title="Prev"><i class="angle left icon"></i></a>
+							<a class="active item">1</a>
+							<a class="item">2</a>
+							<a class="item">3</a>
+							<a class="item">4</a>
+							<a class="item">Last</a>
+							<a class="item" title="Next"><i class="angle right icon"></i></a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- New Post -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="active item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">New Post
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="fifteen wide tablet fourteen wide computer column">
+						<div class="ui segment">
+
+							<form class="ui form">
+								<div class="required field">
+									<label for="postTitle">Title</label>
+									<input type="text" name="postTitle">
+									<div class="ui pointing red basic label">
+										Title is required
+									</div>
+								</div>
+								<div class="stackable eight wide field">
+									<label for="postAuthor">Author</label>
+									<div class="ui selection dropdown">
+										<input type="hidden" name="postAuthor">
+										<i class="dropdown icon"></i>
+										<div class="default text">Select an Author</div>
+										<div class="menu">
+											<div class="item" data-value="1">Crystal Finch</div>
+											<div class="item" data-value="0">Someone Else</div>
+										</div>
+									</div>
+								</div>
+								<div class="eight wide field">
+									<label for="postDate">Date</label>
+									<div class="ui action input">
+										<input type="text" name="postDate">
+										<button class="ui icon button">
+											<i class="calendar icon"></i>
+										</button>
+									</div>
+								</div>
+								<div class="required field">
+									<div class="ui pointing below red basic label">
+										Content is required
+									</div>
+									<label for="postContent">Content</label>
+									<textarea name="postContent" class="froala"></textarea>
+								</div>
+								<div class="field">
+									<label for="postTags">Tags</label>
+									<input type="text" name="postTags" disabled>
+								</div>
+
+								<button class="ui primary button">Create</button>
+								<button class="ui button">Cancel</button>
+
+								<div class="ui warning small message" style="display:block">
+									<div class="header"><i class="warning sign icon"></i>Error</div>
+									<p>There was a problem creating your post. Please try again later.</p>
+								</div>
+								<div class="ui success small message" style="display:block">
+									<div class="header"><i class="check icon"></i>Post Created</div>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Edit Post -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="active item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">Edit Post
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="fifteen wide tablet fourteen wide computer column">
+						<div class="ui segment">
+
+							<form class="ui form">
+								<div class="required field">
+									<label for="postTitle">Title</label>
+									<input type="text" name="postTitle" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+								</div>
+								<div class="eight wide field">
+									<label for="postAuthor">Author</label>
+									<div class="ui selection dropdown">
+										<input type="hidden" name="postAuthor">
+										<i class="dropdown icon"></i>
+										<div class="text">Crystal Finch</div>
+										<div class="menu">
+											<div class="item" data-value="0">Someone Else</div>
+										</div>
+									</div>
+								</div>
+								<div class="eight wide field">
+									<label for="postDate">Date</label>
+									<div class="ui action input">
+										<input type="text" name="postDate" value="January 11, 2014">
+										<button class="ui icon button">
+											<i class="calendar icon"></i>
+										</button>
+									</div>
+								</div>
+								<div class="required field">
+									<label for="postContent">Content</label>
+									<textarea name="postContent" class="froala">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+										<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+										<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+									</textarea>
+								</div>
+								<div class="field">
+									<label for="postTags">Tags</label>
+									<input type="text" name="postTags" disabled>
+								</div>
+								<button class="ui primary button">Save Changes</button>
+								<button class="ui button">Cancel</button>
+
+								<div class="ui warning small message" style="display:block">
+									<div class="header"><i class="warning sign icon"></i>Error</div>
+									<p>There was a problem saving your changes. Please try again later.</p>
+								</div>
+								<div class="ui success small message" style="display:block">
+									<div class="header"><i class="check icon"></i>Changes Saved</div>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Pages -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="active item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<br>
+				<div class="ui stackable grid row">
+					<div class="ten wide column">
+						<h1 class="ui header">Pages
+							<br><br>
+						</h1>
+					</div>
+					<div class="six wide column right aligned">
+						<button class="ui primary button">
+							<i class="plus icon"></i>New Page
+						</button>
+					</div>
+				</div>
+
+				<div class="ui stackable grid row">
+					<div class="sixteen wide column">
+
+						<table class="ui phone striped table">
+							<thead>
+								<tr>
+									<th>Title</th>
+									<th class="four wide center aligned">Updated</th>
+									<th class="three wide right aligned"><!--Actions--></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="top aligned">
+									<td><a href="">About</a></td>
+									<td class="center aligned">Sept 14, 2013 9:00AM</td>
+									<td class="right aligned">
+										<a href="" title="View"><i class="eye icon"></i></a>
+										<a href="" title="Edit"><i class="write icon"></i></a>
+										<a href="" title="Delete"><i class="trash icon"></i></a>
+									</td>
+								</tr>
+								<tr class="top aligned">
+									<td><a href="">Contact Us</a></td>
+									<td class="center aligned">Oct 2, 2013 10:15AM</td>
+									<td class="right aligned">
+										<a href="" title="View"><i class="eye icon"></i></a>
+										<a href="" title="Edit"><i class="write icon"></i></a>
+										<a href="" title="Delete"><i class="trash icon"></i></a>
+									</td>
+								</tr>
+								<tr class="top aligned">
+									<td><a href="">Privacy Policy</a></td>
+									<td class="center aligned">Nov 21, 2013 2:00PM</td>
+									<td class="right aligned">
+										<a href="" title="View"><i class="eye icon"></i></a>
+										<a href="" title="Edit"><i class="write icon"></i></a>
+										<a href="" title="Delete"><i class="trash icon"></i></a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div class="ui pagination floated right menu">
+							<a class="item" title="Prev"><i class="angle left icon"></i></a>
+							<a class="active item">1</a>
+							<a class="item">2</a>
+							<a class="item">3</a>
+							<a class="item">4</a>
+							<a class="item">Last</a>
+							<a class="item" title="Next"><i class="angle right icon"></i></a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- New Page -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="active item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">New Page
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="fifteen wide tablet fourteen wide computer column">
+						<div class="ui segment">
+
+							<form class="ui form">
+								<div class="required field">
+									<label for="newPageTitle">Title</label>
+									<input type="text" name="newPageTitle">
+								</div>
+								<div class="required field">
+									<label for="newPageContent">Content</label>
+									<textarea name="newPageContent" class="froala"></textarea>
+								</div>
+								<button class="ui primary button">Create</button>
+								<button class="ui button">Cancel</button>
+
+								<div class="ui warning small message" style="display:block">
+									<div class="header"><i class="warning sign icon"></i>Error</div>
+									<p>There was a problem creating your page. Please try again later.</p>
+								</div>
+								<div class="ui success small message" style="display:block">
+									<div class="header"><i class="check icon"></i>Page Created</div>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Edit Page -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="active item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">Edit Page
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="fifteen wide tablet fourteen wide computer column">
+						<div class="ui segment">
+
+							<form class="ui form">
+								<div class="required field">
+									<label for="newPageTitle">Title</label>
+									<input type="text" name="newPageTitle" value="About">
+								</div>
+								<div class="required field">
+									<label for="newPageContent">Content</label>
+									<textarea name="newPageContent" class="froala">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+										<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+										<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+									</textarea>
+								</div>
+								<button class="ui primary button">Save Changes</button>
+								<button class="ui button">Cancel</button>
+
+								<div class="ui warning small message" style="display:block">
+									<div class="header"><i class="warning sign icon"></i>Error</div>
+									<p>There was a problem saving your changes. Please try again later.</p>
+								</div>
+								<div class="ui success small message" style="display:block">
+									<div class="header"><i class="check icon"></i>Changes Saved</div>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Files -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="active item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">Files
+					<br><br>
+				</h1>
+
+				<div class="ui grid stackable row">
+					<div class="sixteen wide tablet five wide computer column">
+
+						<button class="ui fluid primary button">
+							<i class="plus icon"></i>Upload Files
+						</button>
+
+						<div class="ui segment">
+
+							<h2 class="ui small header">Filter</h2>
+							<form action="" class="ui form">
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Images</label>
+									</div>
+								</div>
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Documents</label>
+									</div>
+								</div>
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Audio</label>
+									</div>
+								</div>
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Video</label>
+									</div>
+								</div>
+							</form>
+
+							<div class="ui divider"></div>
+
+							<h2 class="ui small header">Folders</h2>
+							<div class="ui list">
+								<div class="item">
+									<i class="folder icon"></i>
+									<div class="content">
+										<div>Banners</div>
+									</div>
+								</div>
+								<div class="item">
+									<i class="folder icon"></i>
+									<div class="content">
+										<div>Logos</div>
+									</div>
+								</div>
+								<div class="item">
+									<i class="folder icon"></i>
+									<div class="content">
+										<div>Post Images</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="ui divider"></div>
+
+							<h2 class="ui small header">Tags</h2>
+							<div class="ui horizontal list">
+								<a href="" class="item"><span class="ui small label">fun</span></a>
+								<a href="" class="item"><span class="ui small label">inspirational</span></a>
+								<a href="" class="item"><span class="ui small label">ideas</span></a>
+								<a href="" class="item"><span class="ui small label">holidays</span></a>
+								<a href="" class="item"><span class="ui small label">interiors</span></a>
+							</div>
+
+						</div>
+					</div>
+					<div class="sixteen wide tablet eleven wide computer column">
+
+						<div class="ui grid">
+							<div class="eight wide phone five wide computer column">
+								<div class="ui card">
+									<a class="image">
+										<img src="img/image.png">
+									</a>
+									<div class="extra">
+										<a href="">image1-and-another-something-an-derp.png</a>
+										<div class="meta">Uploaded Apr 12, 2017</div>
+									</div>
+								</div>
+							</div>
+							<div class="eight wide phone five wide computer column">
+								<div class="ui card">
+									<a class="image">
+										<img src="img/image.png">
+									</a>
+									<div class="extra">
+										<a href="">image1.png</a>
+										<div class="meta">Uploaded Apr 12, 2017</div>
+									</div>
+								</div>
+							</div>
+							<div class="eight wide phone five wide computer column">
+								<div class="ui card">
+									<a class="image">
+										<img src="img/image.png">
+									</a>
+									<div class="extra">
+										<a href="">image2.png</a>
+										<div class="meta">Uploaded Apr 12, 2017</div>
+									</div>
+								</div>
+							</div>
+							<div class="eight wide phone five wide computer column">
+								<div class="ui card">
+									<a class="image">
+										<img src="img/image.png">
+									</a>
+									<div class="extra">
+										<a href="">image3.png</a>
+										<div class="meta">Uploaded Apr 12, 2017</div>
+									</div>
+								</div>
+							</div>
+							<div class="eight wide phone five wide computer column">
+								<div class="ui card">
+									<a class="image">
+										<img src="img/image.png">
+									</a>
+									<div class="extra">
+										<a href="">image4.png</a>
+										<div class="meta">Uploaded Apr 12, 2017</div>
+									</div>
+								</div>
+							</div>
+							<div class="eight wide phone five wide computer column">
+								<div class="ui card">
+									<a class="image">
+										<img src="img/image.png">
+									</a>
+									<div class="extra">
+										<a href="">image5.png</a>
+										<div class="meta">Uploaded Apr 12, 2017</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<br>
+
+						<div class="ui basic segment center aligned">
+							<div class="ui pagination menu">
+								<a class="item" title="Prev"><i class="angle left icon"></i></a>
+								<a class="active item">1</a>
+								<a class="item">2</a>
+								<a class="item">3</a>
+								<a class="item">4</a>
+								<a class="item">Last</a>
+								<a class="item" title="Next"><i class="angle right icon"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Upload Files -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="active item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">Upload Files
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="twelve wide tablet sixteen wide computer column">
+
+						<div class="ui segment">
+							<form class="ui form">
+								<div class="fields">
+									<div class="required five wide field">
+										<label for="attachmentName">Select a File</label>
+										<div class="ui action input">
+											<input type="text" readonly>
+											<label for="attachmentName" class="ui icon button btn-file">
+												<i class="image icon"></i>
+												<input type="file" id="attachmentName" name="attachmentName" style="display: none">
+											</label>
+										</div>
+									</div>
+									<div class="eleven wide field">
+										<label for="attachmentDescription">Description</label>
+										<textarea rows="1" name="fileDescription"></textarea>
+									</div>
+								</div>
+								<button class="ui primary button">Upload File(s)</button>
+								<button class="ui button">Cancel</button>
+							</form>
+
+							<div class="ui warning small message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Error</div>
+								<p>There was a problem uploading your file. Please try again later.</p>
+							</div>
+							<div class="ui success small message" style="display:block">
+								<div class="header"><i class="check icon"></i>Upload Successful</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br><br><br><br><br><br>
+
+
+	<!-- Edit File -->
+	<div class="ui container">
+		<div class="ui stackable grid row">
+			<div class="five wide tablet four wide computer column">
+
+				<div class="ui vertical menu fluid grid">
+					<a href="" class="item"><i class="block layout icon"></i>Dashboard</a>
+					<a href="" class="item"><i class="pin icon"></i>Posts</a>
+					<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+					<a href="" class="active item"><i class="cloud icon"></i>Files</a>
+					<a href="" class="item"><i class="setting icon"></i>Settings</a>
+					<a href="" class="item"><i class="users icon"></i>Users</a>
+					<a href="" class="item"><i class="user icon"></i>My Profile</a>
+				</div>
+			</div>
+			<div class="eleven wide tablet twelve wide computer column">
+
+				<div class="ui menu">
+					<a class="item" title="Toggle Menu"><i class="content icon"></i></a>
+					<div class="header item">{Blog Name}</div>
+					<a class="item" target="_blank">View Site</a>
+					<a class="item right aligned"><i class="sign out icon"></i>Sign Out</a>
+				</div>
+
+				<h1 class="ui header">Edit File
+					<br><br>
+				</h1>
+
+				<div class="ui stackable grid row">
+					<div class="six wide column">
+
+						<div class="ui card">
+							<div class="image">
+								<img src="img/image.png">
+							</div>
+							<div class="extra center aligned">
+								Uploaded May 9, 2017 <br>by Crystal Finch
+							</div>
+						</div>
+
+					</div>
+					<div class="seven wide column">
+
+						<h2 class="ui header">image1.png</h2>
+						<form class="ui form">
+							<div class="field">
+								<label for="fileDescription">Description</label>
+								<textarea rows="4" name="fileDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</textarea>
+							</div>
+							<button class="ui primary button" disabled>Update</button>
+							<button class="ui secondary button">Delete</button>
+
+							<div class="ui warning small message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Error</div>
+								<p>There was a problem saving your changes. Please try again later.</p>
+							</div>
+							<div class="ui success small message" style="display:block">
+								<div class="header"><i class="check icon"></i>Changes Saved</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<br><br><br><br><br><br><br><br>
+
+</body>
+</html>
