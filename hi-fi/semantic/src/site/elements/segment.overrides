@@ -1,0 +1,9 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.segment {
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}

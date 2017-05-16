@@ -1,0 +1,50 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+
+/*******************************
+           Variations
+*******************************/
+
+
+/*-------------------
+       Colors
+--------------------*/
+
+/* Basic */
+.ui.basic.red.label {
+  background-color: @negativeBackgroundColor !important;
+  color: @red !important;
+  border-color: @negativeBorderColor !important;
+}
+.ui.basic.red.labels a.label:hover,
+a.ui.basic.red.label:hover {
+  background-color: @negativeBackgroundColor !important;
+  color: @redHover !important;
+  border-color: @negativeBorderColor !important;
+}
+
+.ui.message {
+    a {
+        text-decoration: underline;
+    }
+}
+
+.ui.success.message {
+    a {
+        color: @successColor;
+    }
+}
+
+.ui.warning.message {
+    a {
+        color: @warningColor;
+    }
+}
+
+.ui.error.message {
+    a {
+        color: @negativeColor;
+    }
+}

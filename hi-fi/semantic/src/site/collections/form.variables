@@ -1,0 +1,21 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+/*-------------------
+       Elements
+--------------------*/
+
+/* Input */
+@inputBorder: 1px solid @solidBorderColor;
+@inputBorderRadius: 3px;
+
+
+/*-------------------
+        States
+--------------------*/
+
+/* Errored Input */
+@formErrorBackground: @white;
+@formErrorBorder: @red;

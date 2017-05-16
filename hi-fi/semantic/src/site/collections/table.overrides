@@ -1,0 +1,86 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.table {
+    border-left: 0;
+    border-right: 0;
+}
+
+
+/*--------------
+     Parts
+---------------*/
+
+/* Table Cells */
+.ui.table td {
+    color: @druzyGreyMedium;
+}
+
+
+/*--------------
+     Types
+---------------*/
+
+/* Padded */
+.ui.padded.table th {
+    padding: @relativeTiny @relativeTiny;
+}
+
+
+@media only screen and (max-width : @largestMobileScreen) {
+    .ui.table {
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+
+        &:not(.unstackable) {
+            tr {
+                background: #ffffff!important;
+                border: 1px solid #e8e8e8;
+                box-shadow: none!important;
+                margin-bottom: 1em;
+                padding: .5em 0 .25em;
+
+                td {
+                    &[data-labeled] {
+                        font-size: @relative12px;
+                        padding-top: 0!important;
+                        padding-bottom: 0!important;
+                    }
+                }
+            }
+        }
+
+        td {
+
+            a {
+                display: block;
+            }
+
+            &.center.aligned {
+                text-align: left;
+            }
+
+            &[data-labeled] {
+                &:before {
+                    content: attr(data-labeled);
+                    display: inline-block;
+                    font-weight: 600;
+                    margin-right: @relative5px;
+                }
+            }
+
+            &.actions {
+                position: relative;
+                top: .25em;
+
+                a {
+                    display: inline-block;
+                    padding: 10px 3px 8px 6px;
+                }
+            }
+        }
+    }
+}

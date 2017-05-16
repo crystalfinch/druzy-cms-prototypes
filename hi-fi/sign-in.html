@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sign In | druzyCMS</title>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+</head>
+<body>
+
+	<!-- Sign In -->
+	<div class="ui container centered-vertically">
+		<div class="ui two column centered grid">
+			<div class="sixteen wide phone eight wide tablet column">
+
+				<div class="ui segment centered">
+					<h1 class="ui huge center aligned header">Sign In</h1>
+					<form class="ui form">
+						<div class="required field">
+							<label for="emailSignIn">Email</label>
+							<input type="text" name="emailSignIn">
+						</div>
+						<div class="required field">
+							<label for="passwordSignIn">Password</label>
+							<input type="text" name="passwordSignIn">
+						</div>
+						<button class="ui primary button" type="submit">Sign In</button>
+
+						<div class="ui error mini message" style="display:block">
+							<div class="header"><i class="warning sign icon"></i>Account Does Not Exist</div>
+							<p>This email is not associated with an existing account. Please <a href="/sign-up">sign up</a> first.</p>
+						</div>
+					</form>
+				</div>
+
+				<div class="ui basic segment">
+					<h2 class="ui center aligned header">Forget your password?<div class="sub header">Enter your email to reset your password.</div></h2>
+
+					<form class="ui form">
+						<div class="fields">
+							<div class="ten wide field">
+								<input type="text" name="emailForgot" placeholder="Email">
+							</div>
+							<div class="six wide field">
+								<button class="ui primary fluid button" type="submit">Reset</button>
+							</div>
+						</div>
+						<div class="ui success mini message" style="display:block">
+							<div class="header"><i class="check icon"></i>Password Reset Email Sent</div>
+							<p>We've e-mailed you instructions for setting your password to the e-mail address you submitted. You should be receiving it shortly.</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<!-- <script src="js/admin.js"></script> -->
+</body>
+</html>

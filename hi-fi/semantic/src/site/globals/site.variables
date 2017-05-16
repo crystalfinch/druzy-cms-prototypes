@@ -1,0 +1,127 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+@fontName: 'Open Sans';
+@googleFontSizes: '300,400,600,700,400italic,600italic';
+
+
+/*-------------------
+    Border Radius
+--------------------*/
+@absoluteBorderRadius: 0px;
+
+
+/*-------------------
+      Borders
+--------------------*/
+@borderColor: #e8e8e8;
+@solidBorderColor: #e8e8e8;
+
+
+/*-------------------
+      Site Colors
+--------------------*/
+@druzyGrey: #4e5761;
+@druzyGreyMedium: #949fab;
+@druzyGreyLight: #f6f6f7;
+@druzyDark: #31363c;
+@druzyBlue: #6198f1;
+
+@red: #e83232;
+@green: #3a7f4a;
+
+
+/*-------------------
+    Brand Colors
+--------------------*/
+@primaryColor: @druzyBlue;
+
+
+/*--------------
+   Form Input
+---------------*/
+
+/* Input Text Color */
+@inputPlaceholderColor: lighten(@inputColor, 50);
+@inputPlaceholderFocusColor: lighten(@inputColor, 50);
+
+
+/*******************************
+           Power-User
+*******************************/
+
+/*-------------------
+    Emotive Colors
+--------------------*/
+
+/* Positive */
+@positiveColor           : @green;
+@positiveBackgroundColor : #ddf3e2;
+@positiveBorderColor     : #d8ecdc;
+@positiveHeaderColor     : @green;
+@positiveTextColor       : @green;
+
+@successBackgroundColor : @positiveBackgroundColor;
+@successColor           : @positiveColor;
+@successBorderColor     : @positiveBorderColor;
+@successHeaderColor     : @positiveHeaderColor;
+@successTextColor       : @positiveTextColor;
+
+/* Warning */
+@warningColor           : #8a713e;
+@warningBorderColor     : #f3ecb1;
+@warningBackgroundColor : #fdf6b8;
+@warningHeaderColor     : #8a713e;
+@warningTextColor       : #8a713e;
+
+/* Negative */
+@negativeColor           : @red;
+@negativeBackgroundColor : #fde7de;
+@negativeBorderColor     : #fddede;
+@negativeHeaderColor     : @red;
+@negativeTextColor       : @red;
+
+
+/*-------------------
+        Page
+--------------------*/
+@pageBackground: #f7f7f7;
+@textColor: @druzyDark;
+
+
+/*-------------------
+       Links
+--------------------*/
+@linkColor: @druzyBlue;
+
+
+/*******************************
+             States
+*******************************/
+
+/*-------------------
+        Hover
+--------------------*/
+
+/*---  Colors  ---*/
+@primaryColorHover: darken(@primaryColor, 5);
+
+
+/*-------------------
+        Focus
+--------------------*/
+
+/*---  Colors  ---*/
+@primaryColorFocus: darken(@primaryColor, 5);
+
+
+/*-------------------
+    Down (:active)
+--------------------*/
+
+/*---  Colors  ---*/
+@primaryColorDown: darken(@primaryColor, 7);

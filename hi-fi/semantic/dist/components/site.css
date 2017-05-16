@@ -1,0 +1,286 @@
+/*!
+ * # Semantic UI 2.2.10 - Site
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Page
+*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,600,700,400italic,600italic&subset=latin');
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #f7f7f7;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: #31363c;
+  font-smoothing: antialiased;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.28571429em;
+  margin: calc(2rem -  0.14285714em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.71428571rem;
+}
+h3 {
+  font-size: 1.28571429rem;
+}
+h4 {
+  font-size: 1.07142857rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #6198f1;
+  text-decoration: none;
+}
+a:hover {
+  color: #2075ff;
+  text-decoration: none;
+}
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: #31363c;
+}
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: #31363c;
+}
+::selection {
+  background-color: #CCE2FF;
+  color: #31363c;
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #31363c;
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #31363c;
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #31363c;
+}
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+.mobile.only {
+  display: none!important;
+}
+@media only screen and (max-width: 767px) {
+  .mobile.only {
+    display: block!important;
+  }
+  .tablet-up {
+    display: none!important;
+  }
+}
+.main {
+  padding-left: 55px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.inside {
+  padding: 25px 30px;
+}
+@media only screen and (max-width: 767px) {
+  .inside {
+    padding: 20px 0px;
+  }
+}
+body.menu-open .ui.left.sidebar {
+  left: 0;
+}
+body.menu-open .main {
+  padding-left: 260px;
+}
+@media only screen and (max-width: 767px) {
+  body.menu-open {
+    position: fixed;
+  }
+  body.menu-open .main {
+    padding-left: 0;
+  }
+  body.menu-open .inside,
+  body.menu-open .page-title {
+    opacity: .7;
+  }
+  body.menu-open #menuBar .item.header span {
+    opacity: 0;
+  }
+}
+.ui.container.centered-vertically {
+  display: table !important;
+  height: 100% !important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+.ui.container.centered-vertically > div {
+  display: table-cell !important;
+  vertical-align: middle;
+}
+.ui.container.centered-vertically .segment {
+  width: 290px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ui.container.centered-vertically .sub.header {
+  font-size: .9rem;
+  margin-top: .5em;
+}
+.ui.container.centered-vertically .menu .facebook {
+  color: #3B5998;
+}
+.ui.container.centered-vertically .menu .facebook:before {
+  position: relative;
+  top: 1px;
+}
+@media only screen and (max-width: 767px) {
+  .main {
+    padding-left: 0;
+  }
+  .ui.container.centered-vertically .ui.form .fields .ui.button {
+    margin-top: 1em;
+  }
+}
+.file-filters .ui.header {
+  font-size: 1em;
+  font-weight: 600;
+}
+.file-filters .ui.header:not(.attached) {
+  margin-bottom: .5em;
+  margin-top: 0;
+}
+.file-filters .ui.header.attached {
+  font-size: 1.14285714em;
+}
+.file-filters .ui.form {
+  margin: .75em 0 1.5em;
+}
+.file-filters .ui.list {
+  margin: 0 0 1.5em;
+}
+.file-filters .ui.list.horizontal > .item {
+  display: block;
+  float: left;
+  margin-left: 0;
+  margin-right: .5em;
+}
+.file-filters .ui.list.horizontal > .item .label {
+  font-weight: 400;
+}
+.file-filters .ui.list:not(.horizontal) {
+  margin-top: .75em;
+}
+.file-filters .ui.list:not(.horizontal) > .item {
+  font-size: .9em;
+  margin-bottom: .5em;
+}
+footer {
+  color: #949fab;
+  font-size: .8em;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+footer i.icon {
+  margin: 0;
+}
+@media only screen and (max-width: 767px) {
+  footer {
+    padding: 50px 15px 20px;
+  }
+}

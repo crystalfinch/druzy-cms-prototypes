@@ -1,0 +1,16 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.left.sidebar {
+    padding-top: 10px;
+    left: -205px;
+    transition: all .5s ease;
+}
+
+@media only screen and (max-width : @largestMobileScreen) {
+    .ui.left.sidebar {
+        left: -260px;
+        z-index: 20000;
+    }
+}

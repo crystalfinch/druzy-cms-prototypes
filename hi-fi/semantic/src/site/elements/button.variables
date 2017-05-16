@@ -1,0 +1,36 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+/* Button */
+@backgroundColor: @druzyGrey;
+@background: @backgroundColor;
+
+/* Text */
+@borderRadius: 4px;
+@fontWeight: 500;
+@textColor: rgba(255,255,255,1);
+
+
+/*-------------------
+        States
+--------------------*/
+/* Hovered */
+@hoverBackgroundColor: darken(@druzyGrey, 4%);
+@hoverColor: @textColor;
+
+/* Focused */;
+@focusBackgroundColor: darken(@druzyGrey, 8%);
+@focusColor: @textColor;
+
+/* Active */
+@activeBackgroundColor: darken(@druzyGrey, 8%);
+@activeColor: @textColor;
+
+/* Pressed Down */
+@downBackgroundColor: darken(@druzyGrey, 8%);
+@downColor: @textColor;

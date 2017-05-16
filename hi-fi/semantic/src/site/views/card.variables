@@ -1,0 +1,13 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+/*-------------------
+         View
+--------------------*/
+
+@boxShadow: @subtleShadow;
+
+/* Card */
+@borderRadius: 2px;

@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+#mainMenuToggle {
+    border-radius: 2px;
+    font-size: 1.5rem;
+    margin: -.13em 0;
+    padding: @relative4px @relative4px;
+}

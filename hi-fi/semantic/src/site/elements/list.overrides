@@ -1,0 +1,10 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/* Description */
+.ui.list .list > .item .description,
+.ui.list > .item .description {
+  font-size: .8em;
+  margin: .25em 0;
+}

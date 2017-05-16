@@ -1,0 +1,33 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+
+@altFontPath: '../../lib/icomoon';
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('@{altFontPath}/icomoon.eot?t6mpb5#iefix') format('embedded-opentype'),
+          url('@{altFontPath}/icomoon.ttf?t6mpb5') format('truetype'),
+          url('@{altFontPath}/icomoon.woff?t6mpb5') format('woff'),
+          url('@{altFontPath}/icomoon.svg?t6mpb5#icomoon') format('svg');;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon.icomoon-user:before {
+  content: "\e971";
+}
+.icon.icomoon-users:before {
+  content: "\e972";
+}

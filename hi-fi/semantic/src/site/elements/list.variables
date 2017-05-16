@@ -1,0 +1,13 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+      Elements
+--------------------*/
+
+/* Description */
+@itemDescriptionColor: @druzyGreyMedium;
+
+/* Header */
+@itemHeaderFontWeight: 600;

@@ -1,0 +1,120 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.main {
+    padding-top: 50px;
+}
+
+#mainMenu {
+    border: 0;
+
+    .item {
+        color: rgba(255,255,255,.75);
+        font-weight: 300;
+
+        &:hover {
+            background: darken(@druzyDark, 4%);
+        }
+
+        &.active {
+            background: darken(@druzyDark, 4%);
+        }
+
+        &:before {
+            background: transparent;
+        }
+    }
+}
+
+#menuBar {
+    background-color: #efefef;
+    border-radius: 0;
+    left: 55px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all .5s ease;
+    z-index: 10000;
+
+    .label {
+        background: #fafafa;
+        border: 1px solid #e0e2e4;
+
+        .icon {
+            margin: 0 .5em 0 0;
+        }
+    }
+
+    .item {
+        font-weight: 600;
+
+        &.header {
+            padding-left: @relative5px;
+
+            span {
+                line-height: 1.5em;
+                max-width: 400px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                transition: opacity .25s ease;
+                white-space: nowrap;
+            }
+        }
+
+        &:before {
+            background: transparent;
+        }
+    }
+}
+
+@media only screen and (max-width : @largestMobileScreen) {
+    #mainMenu {
+        font-size: .85rem;
+    }
+    #menuBar {
+        .item {
+            &.header {
+                span {
+                    max-width: 200px;
+                }
+            }
+        }
+    }
+}
+
+body {
+    &.menu-open {
+        #menuBar {
+            left: 260px;
+        }
+    }
+}
+
+.ui.menu.pagination {
+    font-size: .85rem;
+
+    .item {
+        padding: @relative8px @relative12px;
+
+        &.active {
+            padding-top: @relative8px;
+        }
+
+        >i.icon {
+            margin: 0;
+        }
+    }
+}
+
+@media only screen and (max-width : @largestMobileScreen) {
+    #menuBar {
+        left: 0;
+    }
+
+    body.menu-open {
+        #menuBar {
+            left: 260px;
+        }
+    }
+}

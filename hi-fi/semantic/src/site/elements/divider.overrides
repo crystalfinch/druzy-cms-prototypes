@@ -1,0 +1,7 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.divider.dotted {
+    border-top-style: dotted!important;
+}

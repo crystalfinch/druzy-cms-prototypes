@@ -1,0 +1,39 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+
+.page-title {
+    background: @white;
+    border-top: 1px solid @borderColor;
+    border-bottom: 1px solid @borderColor;
+    font-weight: 300;
+    padding: 30px 30px 60px;
+
+    >.ui.header {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width : @largestMobileScreen) {
+    .page-title {
+        padding: 15px;
+    }
+
+    .ui.header {
+        color: lighten(@textColor, 10%);
+        font-weight: 400;
+
+        .sub.header {
+            margin-top: @relative3px;
+        }
+    }
+
+    h1.ui.header {
+        font-size: @relative22px;
+    }
+
+    h2.ui.header {
+        font-size: @relative18px;
+    }
+}

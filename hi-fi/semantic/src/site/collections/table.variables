@@ -1,0 +1,28 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+/*-------------------
+       Element
+--------------------*/
+@boxShadow: @subtleShadow;
+
+
+/*--------------
+     Parts
+---------------*/
+
+/* Table Header */
+@headerBackground: rgba(49,54,60,.045);
+
+/* Table Footer */
+@footerBackground: rgba(49,54,60,.045);
+
+
+/*--------------
+     Types
+---------------*/
+
+/* Striped */
+@stripedBackground: rgba(49,54,60,.045);

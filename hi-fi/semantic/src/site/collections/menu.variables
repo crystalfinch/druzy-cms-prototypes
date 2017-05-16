@@ -1,0 +1,24 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+      Collection
+--------------------*/
+@borderRadius: 3px;
+@boxShadow: none;
+@verticalBackground: @druzyDark;
+
+
+/*--------------
+     Labels
+---------------*/
+@labelBackground: #f0f1f3;
+@labelTextColor: @mutedTextColor;
+
+
+/*--------------
+     Types
+---------------*/
+/* Pagination */
+@paginationMinWidth: 2em;

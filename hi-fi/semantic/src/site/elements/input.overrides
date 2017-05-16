@@ -1,0 +1,15 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+
+/*--------------------
+        Action
+---------------------*/
+
+/* Button on Right */
+.ui.action.input:not([class*="left action"]) > .dropdown:last-child,
+.ui.action.input:not([class*="left action"]) > .button:last-child,
+.ui.action.input:not([class*="left action"]) > .buttons:last-child > .button {
+    border-radius: 0px 3px 3px 0px;
+}

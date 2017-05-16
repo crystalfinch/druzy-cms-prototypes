@@ -1,0 +1,27 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+/*-------------------
+       Content
+--------------------*/
+
+/* Additional Content */
+.ui.cards > .card > .extra,
+.ui.card > .extra {
+    font-size: .85em;
+}
+
+.file-card {
+    .extra {
+        a {
+            display: block;
+            font-size: 1.1em;
+            font-weight: 600;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}

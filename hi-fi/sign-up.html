@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sign Up | druzyCMS</title>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+</head>
+<body>
+
+	<!-- Sign Up -->
+	<div class="ui container centered-vertically">
+
+		<div class="ui two column centered stackable grid">
+			<div class="eight wide tablet six wide computer five wide large screen column">
+
+				<h1 class="ui huge center aligned header">druzyCMS</h1>
+
+				<div class="ui segment centered">
+					<h2 class="ui center aligned header">Sign Up</h2>
+
+					<!-- <div class="ui signup-buttons mini buttons fluid menu">
+						<button class="ui button" data-tab="emailSignUp">Email</button>
+						<button class="ui button facebook" data-tab="facebookSignUp">Facebook</button>
+					</div> -->
+					<div class="ui fluid two item mini menu">
+						<a class="active item" data-tab="emailSignUp">Email</a>
+						<a class="item facebook" data-tab="facebookSignUp"><i class="facebook icon"></i>Facebook</a>
+					</div>
+
+					<div class="ui active tab" data-tab="emailSignUp">
+						<form action="/signup" method="post" class="ui form">
+							<div class="error required field">
+								<label for="emailEmailSignUp">Email</label>
+								<input type="email" name="emailEmailSignUp">
+								<div class="ui pointing red basic label">
+								 	Email is required
+								</div>
+							</div>
+							<div class="error required field">
+								<label for="passwordEmailSignUp">Password</label>
+								<input type="text" name="passwordEmailSignUp">
+								<div class="ui pointing red basic label">
+								 	Password is required
+								</div>
+							</div>
+							<div class="ui success mini message" style="display:block">
+								<div class="header"><i class="check icon"></i>Strong Password</div>
+							</div>
+							<div class="ui warning mini message" style="display:block">
+								<div class="header"><i class="warning icon"></i>Weak Password</div>
+								<p>Try adding a mixture of uppercase letters, lowercase letters, numbers and special characters.</p>
+							</div>
+							<div class="ui error mini message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Password Too Short</div>
+								<p>Must be at least 6 characters long.</p>
+							</div>
+							<div class="ui error mini message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Account Exists</div>
+								<p>The email you are signing up with is associated with an existing account. Please <a href="/sign-in">sign in</a>.</p>
+							</div>
+							<div class="ui error mini message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Invalid Email</div>
+								<p>Please enter a valid email address.</p>
+							</div>
+							<button class="ui primary button" type="submit">Sign Up</button>
+						</form>
+					</div>
+
+					<div class="ui tab" data-tab="facebookSignUp">
+						<form action="/oauth/facebook" method="post" class="ui form">
+							<div class="required field">
+								<label for="emailFacebookSignUp">Email</label>
+								<input type="email" name="emailFacebookSignUp">
+							</div>
+							<div class="required field">
+								<label for="passwordFacebookSignUp">Password</label>
+								<input type="text" name="passwordFacebookSignUp">
+							</div>
+							<button class="ui primary button" type="submit">Sign Up via Facebook</button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script src="js/admin.js"></script>
+</body>
+</html>

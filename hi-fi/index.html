@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Dashboard | druzyCMS</title>
+	<!-- froala editor styles (OEM License) -->
+	<link href='lib/froala/css/froala_editor.min.css' rel='stylesheet' type='text/css' />
+	<link href="lib/froala/css/themes/custom.css" rel="stylesheet" type="text/css" />
+	<link href="lib/froala/css/plugins/code_view.min.css" rel="stylesheet" type="text/css" />
+	<link href="lib/froala/css/plugins/help.min.css" rel="stylesheet" type="text/css" />
+	<link href="lib/froala/css/plugins/image.min.css" rel="stylesheet" type="text/css" />
+	<link href='lib/froala/css/froala_style.min.css' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+</head>
+<body>
+
+	<div id="mainMenu" class="ui left vertical menu sidebar visible">
+		<a href="" class="item mobile only"><i class="eye icon"></i>View Site</a>
+		<a href="" class="active item"><i class="block layout icon"></i>Dashboard</a>
+		<a href="" class="item"><i class="pin icon"></i>Posts</a>
+		<a href="" class="item"><i class="file text outline icon"></i>Pages</a>
+		<a href="" class="item"><i class="folder open icon"></i>Files</a>
+		<a href="" class="item"><i class="setting icon"></i>Settings</a>
+		<a href="" class="item"><i class="icomoon-users icon"></i>Users</a>
+		<a href="" class="item"><i class="icomoon-user icon"></i>My Profile</a>
+		<a href="" class="item mobile only"><i class="sign out icon"></i>Sign Out</a>
+	</div>
+
+	<div class="main">
+
+		<div id="menuBar" class="ui menu">
+			<div class="item" title="Toggle Menu">
+				<button id="mainMenuToggle" class="ui toggle icon button"><i class="content icon"></i></button>
+			</div>
+			<div class="header item"><span>Blog Name Lorem ipsum dolor sit amet, consectetur adipisicing elit</span><a class="ui tablet-up tiny label" target="_blank"><i class="globe icon"></i>View Site</a></div>
+			<a class="item tablet-up right aligned"><i class="sign out icon"></i>Sign Out</a>
+		</div>
+
+		<div class="page-title">
+			<h1 class="ui header">Dashboard
+				<div class="sub header">Welcome, {User}!</div>
+			</h1>
+		</div>
+
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="sixteen wide tablet nine wide computer column">
+
+					<div class="ui segment">
+						<h2 class="ui header">Recent Posts</h2>
+						<div class="ui very relaxed divided list">
+							<div class="item">
+								<div class="content">
+									<a class="header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+									<div class="description">January 11, 2014</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="content">
+									<a class="header">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque</a>
+									<div class="description">May 11, 2014</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="content">
+									<a class="header">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</a>
+									<div class="description">September 14, 2013</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="ui segment">
+						<h2 class="ui header">Recent Pages</h2>
+						<div class="ui very relaxed divided list">
+							<div class="item">
+								<div class="content">
+									<a class="header">About</a>
+									<div class="description">January 11, 2014</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="content">
+									<a class="header">Contact</a>
+									<div class="description">May 11, 2014</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="sixteen wide tablet six wide computer column">
+
+					<div class="ui segment">
+						<h2 class="ui header">Recent Files</h2>
+						<div class="ui very relaxed divided list">
+							<div class="item">
+								<div class="content">
+									<div class="header">
+										<i class="video camera icon"></i>
+										<a href="">image1-and-another-something-an-derp.png</a>
+									</div>
+									<div class="description">Uploaded Apr 12, 2017</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="content">
+									<div class="header">
+										<i class="image icon"></i>
+										<a href="">image1.png</a>
+									</div>
+									<div class="description">Uploaded May 20, 2016</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">My Profile</h1>
+		</div>
+
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="six wide tablet four wide computer column">
+
+					<div class="ui special cards">
+						<div class="card">
+							<div class="dimmable image">
+								<div class="ui inverted dimmer">
+									<div class="content">
+										<div class="center">
+											<div class="ui primary button">Edit Image</div>
+										</div>
+									</div>
+								</div>
+								<img src="img/image.png">
+							</div>
+							<div class="content">
+								<a class="header">Crystal Finch</a>
+								<div class="meta">
+									<span class="date">Administrator</span>
+								</div>
+							</div>
+							<div class="extra content">
+								<a><i class="pin icon"></i>2 Posts</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="fourteen wide tablet nine wide computer column">
+
+					<div class="ui segment">
+						<form class="ui form">
+							<div class="field">
+								<label for="firstNameProfile">First Name</label>
+								<input type="text" name="firstNameProfile" value="Crystal">
+							</div>
+							<div class="field">
+								<label for="lastNameProfile">Last Name</label>
+								<input type="text" name="lastNameProfile" value="Finch">
+							</div>
+							<div class="required field error">
+								<label for="emailProfile">Email</label>
+								<input type="email" name="emailProfile" value="crystal@somewhere.com">
+								<div class="ui pointing red basic label">
+									Email is required
+								</div>
+							</div>
+							<!--<div class="field">
+								<label for="usernameProfile">Username</label>
+								<input type="text" name="usernameProfile" value="crystalfinch" disabled>
+							</div>-->
+							<div class="field">
+								<label for="passwordProfile">Password</label>
+								<input type="password" name="passwordProfile" value="abc123" disabled>
+							</div>
+							<div class="ui success mini message" style="display:block">
+								<div class="header"><i class="check icon"></i>Strong Password</div>
+							</div>
+							<div class="ui warning mini message" style="display:block">
+								<div class="header"><i class="warning icon"></i>Password Too Short</div>
+								<p>Must be at least 6 characters long.</p>
+							</div>
+							<div class="ui error mini message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Weak Password</div>
+								<p>Try adding a mixture of uppercase letters, lowercase letters, numbers and special characters.</p>
+							</div>
+							<button class="ui primary button">Save Changes</button>
+							<button class="ui button">Cancel</button>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">Settings</h1>
+		</div>
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="fifteen wide tablet fourteen wide computer column">
+					<div class="ui segment">
+
+						<form class="ui form">
+							<div class="ten wide tablet eight wide computer field">
+								<label for="blogName">Blog Name</label>
+								<input type="text" name="blogName" value="Blog Name">
+							</div>
+							<div class="field">
+								<label for="tagline">Blog Tagline</label>
+								<input type="text" name="tagline" value="Blog tagline vero cumque a sapiente delectus">
+							</div>
+							<div class="field">
+								<label for="blogDesc">Blog Description</label>
+								<textarea name="blogDesc" class="froala">
+									{Blog Description} Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.
+								</textarea>
+							</div>
+							<button class="ui primary button">Save Changes</button>
+							<button class="ui button">Cancel</button>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<div class="ui grid">
+				<div class="seven wide column">
+					<h1 class="ui header">Posts</h1>
+				</div>
+				<div class="nine wide column right aligned">
+					<button class="ui primary button">
+						<i class="plus icon"></i>New Post
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="inside">
+
+
+			<div class="ui stackable grid row">
+				<div class="sixteen wide column">
+
+					<table class="ui striped padded table">
+						<thead class="tablet-up">
+							<tr>
+								<th>Title</th>
+								<th class="three wide center aligned">Author</th>
+								<th class="four wide center aligned">Date</th>
+								<th class="three wide right aligned"><!--Actions--></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+								<td data-labeled="Posted by" class="center aligned">Crystal Finch</td>
+								<td data-labeled="Date:" class="center aligned">1/11/14 9:00AM</td>
+								<td class="right aligned actions">
+									<a href="" title="View"><i class="eye icon"></i></a>
+									<a href="" title="Edit"><i class="write icon"></i></a>
+									<a href="" title="Delete"><i class="trash icon"></i></a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque.</a></td>
+								<td data-labeled="Posted by" class="center aligned">Crystal Finch</td>
+								<td data-labeled="Date:" class="center aligned">5/11/14 10:15AM</td>
+								<td class="right aligned actions">
+									<a href="" title="View"><i class="eye icon"></i></a>
+									<a href="" title="Edit"><i class="write icon"></i></a>
+									<a href="" title="Delete"><i class="trash icon"></i></a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</a></td>
+								<td data-labeled="Posted by" class="center aligned">Crystal Finch</td>
+								<td data-labeled="Date:" class="center aligned">9/14/13 2:00PM</td>
+								<td class="right aligned actions">
+									<a href="" title="View"><i class="eye icon"></i></a>
+									<a href="" title="Edit"><i class="write icon"></i></a>
+									<a href="" title="Delete"><i class="trash icon"></i></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<br>
+
+					<div class="ui pagination floated right menu">
+						<a class="item" title="Prev"><i class="angle left icon"></i></a>
+						<a class="active item">1</a>
+						<a class="item">2</a>
+						<a class="item">3</a>
+						<a class="item">4</a>
+						<a class="item">Last</a>
+						<a class="item" title="Next"><i class="angle right icon"></i></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">New Post</h1>
+		</div>
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="fifteen wide tablet fourteen wide computer column">
+					<div class="ui segment">
+
+						<form class="ui form">
+							<div class="required field">
+								<label for="postTitle">Title</label>
+								<input type="text" name="postTitle">
+								<div class="ui pointing red basic label">
+									Title is required
+								</div>
+							</div>
+							<div class="stackable eight wide field">
+								<label for="postAuthor">Author</label>
+								<div class="ui selection dropdown">
+									<input type="hidden" name="postAuthor">
+									<i class="dropdown icon"></i>
+									<div class="default text">Select an Author</div>
+									<div class="menu">
+										<div class="item" data-value="1">Crystal Finch</div>
+										<div class="item" data-value="0">Someone Else</div>
+									</div>
+								</div>
+							</div>
+							<div class="eight wide field">
+								<label for="postDate">Date</label>
+								<div class="ui action input">
+									<input type="text" name="postDate">
+									<button class="ui icon button">
+										<i class="calendar icon"></i>
+									</button>
+								</div>
+							</div>
+							<div class="required field">
+								<div class="ui pointing below red basic label">
+									Content is required
+								</div>
+								<label for="postContent">Content</label>
+								<textarea name="postContent" class="froala"></textarea>
+							</div>
+							<div class="field">
+								<label for="postTags">Tags</label>
+								<input type="text" name="postTags" disabled>
+							</div>
+
+							<button class="ui primary button">Create</button>
+							<button class="ui button">Cancel</button>
+
+							<div class="ui warning small message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Error</div>
+								<p>There was a problem creating your post. Please try again later.</p>
+							</div>
+							<div class="ui success small message" style="display:block">
+								<div class="header"><i class="check icon"></i>Post Created</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">Edit Post</h1>
+		</div>
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="fifteen wide tablet fourteen wide computer column">
+					<div class="ui segment">
+
+						<form class="ui form">
+							<div class="required field">
+								<label for="postTitle">Title</label>
+								<input type="text" name="postTitle" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+							</div>
+							<div class="eight wide field">
+								<label for="postAuthor">Author</label>
+								<div class="ui selection dropdown">
+									<input type="hidden" name="postAuthor">
+									<i class="dropdown icon"></i>
+									<div class="text">Crystal Finch</div>
+									<div class="menu">
+										<div class="item" data-value="1">Crystal Finch</div>
+										<div class="item" data-value="0">Someone Else</div>
+									</div>
+								</div>
+							</div>
+							<div class="eight wide field">
+								<label for="postDate">Date</label>
+								<div class="ui action input">
+									<input type="text" name="postDate" value="January 11, 2014">
+									<button class="ui icon button">
+										<i class="calendar icon"></i>
+									</button>
+								</div>
+							</div>
+							<div class="required field">
+								<label for="postContent">Content</label>
+								<textarea name="postContent" class="froala">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+									<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+									<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+								</textarea>
+							</div>
+							<div class="field">
+								<label for="postTags">Tags</label>
+								<input type="text" name="postTags" disabled>
+							</div>
+							<button class="ui primary button">Save Changes</button>
+							<button class="ui button">Cancel</button>
+
+							<div class="ui warning small message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Error</div>
+								<p>There was a problem saving your changes. Please try again later.</p>
+							</div>
+							<div class="ui success small message" style="display:block">
+								<div class="header"><i class="check icon"></i>Changes Saved</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<div class="ui grid">
+				<div class="seven wide column">
+					<h1 class="ui header">Pages</h1>
+				</div>
+				<div class="nine wide column right aligned">
+					<button class="ui primary button">
+						<i class="plus icon"></i>New Page
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="inside">
+
+			<div class="ui stackable grid row">
+				<div class="sixteen wide column">
+
+					<table class="ui striped padded table">
+						<thead class="tablet-up">
+							<tr>
+								<th>Title</th>
+								<th class="four wide center aligned">Updated</th>
+								<th class="three wide right aligned"><!--Actions--></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">About</a></td>
+								<td data-labeled="Updated" class="center aligned">9/14/13 9:00AM</td>
+								<td class="right aligned actions">
+									<a href="" title="View"><i class="eye icon"></i></a>
+									<a href="" title="Edit"><i class="write icon"></i></a>
+									<a href="" title="Delete"><i class="trash icon"></i></a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="">Contact Us</a></td>
+								<td data-labeled="Updated" class="center aligned">10/2/13 10:15AM</td>
+								<td class="right aligned actions">
+									<a href="" title="View"><i class="eye icon"></i></a>
+									<a href="" title="Edit"><i class="write icon"></i></a>
+									<a href="" title="Delete"><i class="trash icon"></i></a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="">Privacy Policy</a></td>
+								<td data-labeled="Updated" class="center aligned">11/21/13 2:00PM</td>
+								<td class="right aligned actions">
+									<a href="" title="View"><i class="eye icon"></i></a>
+									<a href="" title="Edit"><i class="write icon"></i></a>
+									<a href="" title="Delete"><i class="trash icon"></i></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div class="ui pagination floated right menu">
+						<a class="item" title="Prev"><i class="angle left icon"></i></a>
+						<a class="active item">1</a>
+						<a class="item">2</a>
+						<a class="item">3</a>
+						<a class="item">4</a>
+						<a class="item">Last</a>
+						<a class="item" title="Next"><i class="angle right icon"></i></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">New Page</h1>
+		</div>
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="fifteen wide tablet fourteen wide computer column">
+					<div class="ui segment">
+
+						<form class="ui form">
+							<div class="required field">
+								<label for="newPageTitle">Title</label>
+								<input type="text" name="newPageTitle">
+							</div>
+							<div class="required field">
+								<label for="newPageContent">Content</label>
+								<textarea name="newPageContent" class="froala"></textarea>
+							</div>
+							<button class="ui primary button">Create</button>
+							<button class="ui button">Cancel</button>
+
+							<div class="ui warning small message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Error</div>
+								<p>There was a problem creating your page. Please try again later.</p>
+							</div>
+							<div class="ui success small message" style="display:block">
+								<div class="header"><i class="check icon"></i>Page Created</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">Edit Page</h1>
+		</div>
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="fifteen wide tablet fourteen wide computer column">
+					<div class="ui segment">
+
+						<form class="ui form">
+							<div class="required field">
+								<label for="newPageTitle">Title</label>
+								<input type="text" name="newPageTitle" value="About">
+							</div>
+							<div class="required field">
+								<label for="newPageContent">Content</label>
+								<textarea name="newPageContent" class="froala">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+									<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+									<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+								</textarea>
+							</div>
+							<button class="ui primary button">Save Changes</button>
+							<button class="ui button">Cancel</button>
+
+							<div class="ui warning small message" style="display:block">
+								<div class="header"><i class="warning sign icon"></i>Error</div>
+								<p>There was a problem saving your changes. Please try again later.</p>
+							</div>
+							<div class="ui success small message" style="display:block">
+								<div class="header"><i class="check icon"></i>Changes Saved</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<div class="ui grid">
+				<div class="seven wide column">
+					<h1 class="ui header">Files</h1>
+				</div>
+				<div class="nine wide column right aligned">
+					<button class="ui primary button">
+						<i class="plus icon"></i>Upload Files
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="inside">
+			<div class="ui grid stackable row">
+				<div class="sixteen wide tablet five wide computer column">
+
+					<div class="file-filters">
+						<h2 class="ui top attached header">Filters</h2>
+						<div class="ui attached segment">
+							<h3 class="ui header">Type</h3>
+							<form action="" class="ui form">
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Images</label>
+									</div>
+								</div>
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Documents</label>
+									</div>
+								</div>
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Audio</label>
+									</div>
+								</div>
+								<div class="inline field">
+									<div class="ui checkbox">
+										<input type="checkbox" tabindex="0" class="hidden">
+										<label>Video</label>
+									</div>
+								</div>
+							</form>
+
+							<div class="ui dotted divider"></div>
+
+							<h3 class="ui header">Folders</h3>
+							<div class="ui list">
+								<div class="item">
+									<i class="folder icon"></i>
+									<div class="content">
+										<div>Banners</div>
+									</div>
+								</div>
+								<div class="item">
+									<i class="folder icon"></i>
+									<div class="content">
+										<div>Logos</div>
+									</div>
+								</div>
+								<div class="item">
+									<i class="folder icon"></i>
+									<div class="content">
+										<div>Post Images</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="ui dotted divider"></div>
+
+							<h3 class="ui header">Tags</h3>
+							<div class="ui horizontal list">
+								<a href="" class="item"><span class="ui small label">fun</span></a>
+								<a href="" class="item"><span class="ui small label">inspirational</span></a>
+								<a href="" class="item"><span class="ui small label">ideas</span></a>
+								<a href="" class="item"><span class="ui small label">holidays</span></a>
+								<a href="" class="item"><span class="ui small label">interiors</span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="sixteen wide tablet eleven wide computer column">
+
+					<div class="ui grid">
+						<div class="eight wide phone five wide computer column">
+							<div class="ui card file-card">
+								<a class="image">
+									<img src="img/image.png">
+								</a>
+								<div class="extra">
+									<a href="">image1-and-another-something-an-derp.png</a>
+									<div class="meta">Uploaded Apr 12, 2017</div>
+								</div>
+							</div>
+						</div>
+						<div class="eight wide phone five wide computer column">
+							<div class="ui card file-card">
+								<a class="image">
+									<img src="img/image.png">
+								</a>
+								<div class="extra">
+									<a href="">image1abcdefghijklmnopqrstuvwxyz.png.png</a>
+									<div class="meta">Uploaded Apr 12, 2017</div>
+								</div>
+							</div>
+						</div>
+						<div class="eight wide phone five wide computer column">
+							<div class="ui card file-card">
+								<a class="image">
+									<img src="img/image.png">
+								</a>
+								<div class="extra">
+									<a href="">image2.png</a>
+									<div class="meta">Uploaded Apr 12, 2017</div>
+								</div>
+							</div>
+						</div>
+						<div class="eight wide phone five wide computer column">
+							<div class="ui card file-card">
+								<a class="image">
+									<img src="img/image.png">
+								</a>
+								<div class="extra">
+									<a href="">image3.png</a>
+									<div class="meta">Uploaded Apr 12, 2017</div>
+								</div>
+							</div>
+						</div>
+						<div class="eight wide phone five wide computer column">
+							<div class="ui card file-card">
+								<a class="image">
+									<img src="img/image.png">
+								</a>
+								<div class="extra">
+									<a href="">image4.png</a>
+									<div class="meta">Uploaded Apr 12, 2017</div>
+								</div>
+							</div>
+						</div>
+						<div class="eight wide phone five wide computer column">
+							<div class="ui card file-card">
+								<a class="image">
+									<img src="img/image.png">
+								</a>
+								<div class="extra">
+									<a href="">image5.png</a>
+									<div class="meta">Uploaded Apr 12, 2017</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="ui basic segment center aligned">
+						<div class="ui pagination menu">
+							<a class="item" title="Prev"><i class="angle left icon"></i></a>
+							<a class="active item">1</a>
+							<a class="item">2</a>
+							<a class="item">3</a>
+							<a class="item">4</a>
+							<a class="item">Last</a>
+							<a class="item" title="Next"><i class="angle right icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">Upload Files</h1>
+		</div>
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="twelve wide tablet sixteen wide computer column">
+
+					<div class="ui segment">
+						<form class="ui form">
+							<div class="fields">
+								<div class="required five wide field">
+									<label for="attachmentName">Select a File</label>
+									<div class="ui action input">
+										<input type="text" readonly>
+										<label for="attachmentName" class="ui icon button btn-file">
+											<i class="image icon"></i>
+											<input type="file" id="attachmentName" name="attachmentName" style="display: none">
+										</label>
+									</div>
+								</div>
+								<div class="eleven wide field">
+									<label for="attachmentDescription">Description</label>
+									<textarea rows="1" name="fileDescription"></textarea>
+								</div>
+							</div>
+							<button class="ui primary button">Upload</button>
+							<button class="ui button">Cancel</button>
+						</form>
+
+						<div class="ui warning small message" style="display:block">
+							<div class="header"><i class="warning sign icon"></i>Error</div>
+							<p>There was a problem uploading your file. Please try again later.</p>
+						</div>
+						<div class="ui success small message" style="display:block">
+							<div class="header"><i class="check icon"></i>Upload Successful</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+<!-- <br><br><br><br><br><br><br><br> -->
+
+
+		<div class="page-title">
+			<h1 class="ui header">Edit File</h1>
+		</div>
+		<div class="inside">
+			<div class="ui stackable grid row">
+				<div class="six wide column">
+
+					<div class="ui card">
+						<div class="image">
+							<img src="img/image.png">
+						</div>
+						<div class="extra center aligned">
+							Uploaded 5/9/17 by Crystal Finch
+						</div>
+					</div>
+
+				</div>
+				<div class="seven wide column">
+
+					<h2 class="ui header">image1.png</h2>
+					<form class="ui form">
+						<div class="field">
+							<label for="fileDescription">Description</label>
+							<textarea rows="4" name="fileDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</textarea>
+						</div>
+						<button class="ui primary button" disabled>Update</button>
+						<button class="ui button">Delete</button>
+
+						<div class="ui warning small message" style="display:block">
+							<div class="header"><i class="warning sign icon"></i>Error</div>
+							<p>There was a problem saving your changes. Please try again later.</p>
+						</div>
+						<div class="ui success small message" style="display:block">
+							<div class="header"><i class="check icon"></i>Changes Saved</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+
+			<footer>
+				<div class="ui divider"></div>
+				<div class="ui grid">
+					<div class="eight wide column">
+						<p>Thanks for using druzyCMS!</p>
+					</div>
+					<div class="eight wide column right aligned">
+						<p>Created by <a href="https://github.com/crystalfinch"><i class="github icon"></i>crystalfinch </a></p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+
+	<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<!-- froala editor (OEM License) -->
+	<script type='text/javascript' src='lib/froala/js/froala_editor.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/align.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/code_view.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/font_family.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/font_size.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/help.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/image.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/link.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/lists.min.js'></script>
+	<script type='text/javascript' src='lib/froala/js/plugins/paragraph_format.min.js'></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+	<script src="js/admin.js"></script>
+</body>
+</html>

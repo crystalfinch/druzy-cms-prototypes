@@ -1,0 +1,11 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@borderColor: #efefef;
+@border: 4px solid @borderColor;
+@borderRadius: 1px;
