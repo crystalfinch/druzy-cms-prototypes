@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Admin</title>
+	<style>
+		body {
+			font-family: "Helvetica", Arial, sans-serif;
+		}
+		.wrap {
+			background: #eee;
+			margin: 0 40px 40px;
+			padding: 20px 40px 50px;
+		}
+		.wrap:after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.image {
+			background: #999;
+			float: left;
+			height: 300px;
+			margin: 0 20px 20px 0;
+			width: 400px;
+		}
+		.image.thumb {
+			height: 100px;
+			width: 100px;
+		}
+		.avatar {
+			background: #999;
+			border-radius: 50%;
+			height: 40px;
+			width: 40px;
+		}
+		.tagline {
+			position: relative;
+			top: -1em;
+		}
+		ul {
+			padding-left: 1em;
+		}
+		dl {
+			clear: both;
+			margin-bottom: 20px;
+		}
+		dl dd {
+			margin: 0;
+		}
+		dl dd:first-child {
+			float: left;
+		}
+		dl dd .image.thumb {
+			float: none;
+		}
+		table {
+			width: 100%;
+		}
+		table tr {
+			vertical-align: top;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Posts List -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td colspan="2">
+					<h1>{Blog Name}</h1>
+					<div class="tagline">{Blog tagline vero cumque a sapiente delectus}</div>
+					<div>{Pages} Home | About | Contact</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<dl>
+						<dd><div class="image thumb"></div></dd>
+						<dt><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></dt>
+						<dd>Jamie Harington</dd>
+						<dd>January 11, 2014</dd>
+						<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus?</dd>
+					</dl>
+					<dl>
+						<dd><div class="image thumb"></div></dd>
+						<dt><a href="">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque.</a></dt>
+						<dd>Crystal Finch</dd>
+						<dd>May 11, 2014</dd>
+						<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus?</dd>
+					</dl>
+					<dl>
+						<dd><div class="image thumb"></div></dd>
+						<dt><a href="">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</a></dt>
+						<dd>Crystal Finch</dd>
+						<dd>September 14, 2013</dd>
+						<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus?</dd>
+					</dl>
+				</td>
+				<td width="200">
+					<p>{Blog Description} Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+					<br><br>
+					<h3>Recent Posts</h3>
+					<ul>
+						<li><a href="">Aspernatur aliquam odio</a></li>
+						<li><a href="">Assumenda magnam vel illo eos voluptate</a></li>
+						<li><a href="">Sapiente delectus</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+		<div style="clear:both;">&lt; 1 2 3 4 ... 10 Last &gt;</div>
+		<hr style="clear:both;">
+		<p>&copy; 2017 {Blog Title}</p>
+	</div>
+
+	<!-- Post -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td colspan="2">
+					<h1>{Blog Name}</h1>
+					<div class="tagline">{Blog tagline vero cumque a sapiente delectus}</div>
+					<div>{Pages} Home | About | Contact</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
+					<div>January 11, 2014 &bull; Crystal Finch</div>
+					<article style="margin-right:80px;">
+						<div class="image"></div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+						<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+					</article>
+					<div style="clear:both;">Tags: fun, inspirational, ideas</div>
+				</td>
+				<td width="200">
+					<p>{Blog Description} Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+					<br><br>
+					<h3>Recent Posts</h3>
+					<ul>
+						<li><a href="">Aspernatur aliquam odio</a></li>
+						<li><a href="">Assumenda magnam vel illo eos voluptate</a></li>
+						<li><a href="">Sapiente delectus</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+		<hr style="clear:both;">
+		<p>&copy; 2017 {Blog Title}</p>
+	</div>
+
+	<!-- 400 Error -->
+	<div class="wrap">
+		<h1>404</h1>
+		<p>Page Not Found</p>
+		<p>Sorry, but the page you are looking for has not been found. Check that the URL you are trying to reach is correct. Otherwise, please try again later.</p>
+		<form>
+			<input type="text" placeholder="Search this site&hellip;">
+			<button>Go</button>
+		</form>
+	</div>
+
+	<!-- 500 Error -->
+	<div class="wrap">
+		<h1>500</h1>
+		<p>Internal Server Error</p>
+		<p>The server encountered something unexpected that didn't allow it to complete the request. We apologize.</p>
+		<button>Go to Home</button><button>Go to Dashboard</button>
+	</div>
+
+	<br><br><br>
+	<hr>
+	<h1>(Users)</h1>
+
+	<!-- Sign Up -->
+	<div class="wrap">
+		<h1>Sign Up</h1>
+
+		<button>Email</button>
+		<button>Facebook</button>
+
+		<form>
+			<div>
+				<label>Email</label>
+				<div>
+					<input type="email" value="">
+				</div>
+			</div>
+			<div>
+				<label>Password</label>
+				<div>
+					<input type="password" value="">
+				</div>
+			</div>
+			<button>Sign Up</button>
+		</form>
+
+	</div>
+
+	<!-- Sign In -->
+	<div class="wrap">
+		<h1>Sign In</h1>
+
+		<form>
+			<div>
+				<label>Email</label>
+				<div>
+					<input type="email" value="">
+				</div>
+			</div>
+			<div>
+				<label>Password</label>
+				<div>
+					<input type="password" value="">
+				</div>
+			</div>
+			<button>Sign In</button>
+		</form>
+
+		<h2>Forget your password?</h2>
+		<form>
+			<div>
+				<label>Email</label>
+				<div>
+					<input type="email" value="">
+				</div>
+			</div>
+			<button>Reset</button>
+		</form>
+
+	</div>
+
+	<br><br><br>
+	<hr>
+	<h1>(Signed In)</h1>
+
+	<!-- Dashboard -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+					<h1>Dashboard</h1>
+					<div>Welcome, {User}!</div>
+
+					<h2>Recent Posts</h2>
+					<ul>
+						<li>
+							<a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+							January 11, 2014
+						</li>
+						<li>
+							<a href="">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque.</a>
+							May 11, 2014
+						</li>
+						<li>
+							<a href="">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</a>
+							September 14, 2013
+						</li>
+					</ul>
+
+					<h2>Recent Pages</h2>
+					<ul>
+						<li>
+							<a href="">About</a>
+							January 11, 2014
+						</li>
+						<li>
+							<a href="">Contact</a>
+							May 11, 2014
+						</li>
+					</ul>
+
+					<h2>Recent Files</h2>
+					<ul>
+						<li>
+							<a href="">image1-and-another-something-an-derp.png</a>
+							Uploaded Apr 12, 2017
+						</li>
+						<li>
+							<a href="">image1.png</a>
+							Uploaded May 20, 2016
+						</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Profile -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>My Profile</h1>
+
+					<div>
+						<div>{Profile Image}</div>
+						<div>{Full Name}</div>
+						<div>{Role}</div>
+						<div>{Posts Count}</div>
+					</div>
+
+					<br><br>
+
+					<form>
+						<div>
+							<label>First Name</label>
+							<div>
+								<input type="text" value="Crystal">
+							</div>
+						</div>
+						<div>
+							<label>Last Name</label>
+							<div>
+								<input type="text" value="Finch">
+							</div>
+						</div>
+						<div>
+							<label>Email</label>
+							<div>
+								<input type="email" value="crystal@somewhere.com">
+							</div>
+						</div>
+						<div>
+							<label>Username</label>
+							<div>
+								<input type="text" value="crystalfinch" disabled>
+							</div>
+						</div>
+						<div>
+							<label>Password</label>
+							<div>
+								<input type="password" value="" disabled>
+							</div>
+						</div>
+						<button>Save Changes</button>
+						<button>Cancel</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Settings -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Settings</h1>
+
+					<form>
+						<div>
+							<label>Blog Name</label>
+							<div>
+								<input type="text" value="Blog Name">
+							</div>
+						</div>
+						<div>
+							<label>Blog Tagline</label>
+							<div>
+								<input type="text" value="Blog tagline vero cumque a sapiente delectus">
+							</div>
+						</div>
+						<div>
+							<label>Blog Description</label>
+							<div>
+								<textarea>{Blog Description} Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</textarea>
+							</div>
+						</div>
+						<button>Save Changes</button>
+						<button>Cancel</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Posts -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Posts</h1>
+					<button>New Post</button>
+					<table cellpadding="10">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Date</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+								<td>Crystal Finch</td>
+								<td>January 11, 2014</td>
+								<td><a href="">View</a> <a href="">Edit</a> <a href="">Delete</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Qui tempore laudantium quibusdam quos quo iste excepturi, autem magni deleniti doloremque.</a></td>
+								<td>Crystal Finch</td>
+								<td>May 11, 2014</td>
+								<td><a href="">View</a> <a href="">Edit</a> <a href="">Delete</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Possimus neque iure, quisquam consectetur quidem officiis aliquam nisi esse.</a></td>
+								<td>Crystal Finch</td>
+								<td>September 14, 2013</td>
+								<td><a href="">View</a> <a href="">Edit</a> <a href="">Delete</a></td>
+							</tr>
+						</tbody>
+					</table>
+					<hr style="clear:both;">
+					<div style="clear:both;">&lt; 1 2 3 4 Last &gt;</div>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- New Post -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>New Post</h1>
+					<form>
+						<div>
+							<label>Title</label>
+							<div>
+								<input type="text" value="">
+							</div>
+						</div>
+						<div>
+							<label>Author</label>
+							<div>
+								<input type="text" value="">
+							</div>
+						</div>
+						<div>
+							<label>Date</label>
+							<div>
+								<input type="text" value="">
+							</div>
+						</div>
+						<div>
+							<label>Content</label>
+							<div>
+								<textarea cols="30" rows="10"></textarea>
+							</div>
+						</div>
+						<div>
+							<label>Tags</label>
+							<div>
+								<input type="text" value="">
+							</div>
+						</div>
+						<button>Create</button><button>Cancel</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Edit Post -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Edit Post</h1>
+					<form>
+						<div>
+							<label>Title</label>
+							<div>
+								<input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+							</div>
+						</div>
+						<div>
+							<label>Author</label>
+							<div>
+								<input type="text" value="Crystal Finch">
+							</div>
+						</div>
+						<div>
+							<label>Date</label>
+							<div>
+								<input type="text" value="January 11, 2014">
+							</div>
+						</div>
+						<div>
+							<label>Content</label>
+							<div>
+								<textarea cols="30" rows="10">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+									<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+									<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+								</textarea>
+							</div>
+						</div>
+						<button>Save Changes</button><button>Cancel</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Pages -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Pages</h1>
+					<button>New Page</button>
+					<table cellpadding="10">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Last Updated</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">About</a></td>
+								<td>Sept 14, 2013 9:00AM</td>
+								<td><a href="">View</a> <a href="">Edit</a> <a href="">Delete</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Contact Us</a></td>
+								<td>Oct 2, 2013 10:15AM</td>
+								<td><a href="">View</a> <a href="">Edit</a> <a href="">Delete</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Privacy Policy</a></td>
+								<td>Sept 14, 2013 9:00AM</td>
+								<td><a href="">View</a> <a href="">Edit</a> <a href="">Delete</a></td>
+							</tr>
+						</tbody>
+					</table>
+					<hr style="clear:both;">
+					<div>&lt; 1 2 3 4 ... 10 &gt;</div>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Create New Page -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>New Page</h1>
+					<form>
+						<div>
+							<label>Title</label>
+							<div>
+								<input type="text" value="">
+							</div>
+						</div>
+						<div>
+							<label>Content</label>
+							<div>
+								<textarea cols="30" rows="10"></textarea>
+							</div>
+						</div>
+						<button>Create</button><button>Cancel</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Edit Page -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Edit Page</h1>
+					<form>
+						<div>
+							<label>Title</label>
+							<div>
+								<input type="text" value="About">
+							</div>
+						</div>
+						<div>
+							<label>Content</label>
+							<div>
+								<textarea cols="30" rows="10">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id.</p>
+									<p>Impedit officia laudantium similique iure magnam deleniti, vero cumque a sapiente delectus. Consectetur adipisicing elit. Assumenda magnam vel illo eos voluptate, aspernatur aliquam odio id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+									<p>Autem quis officia modi exercitationem quisquam adipisci atque necessitatibus, nihil repudiandae animi, deleniti tempora aspernatur vero voluptates earum neque sapiente laborum commodi.</p>
+								</textarea>
+							</div>
+						</div>
+						<button>Save Changes</button><button>Cancel</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Files -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Files</h1>
+
+					<table>
+						<tr>
+							<td width="200">
+								<button>Upload Files</button>
+
+								<br><br>
+								<strong>Filters</strong>
+								<div>
+									<label><input type="checkbox"> Images</label>
+								</div>
+								<div>
+									<label><input type="checkbox"> Documents</label>
+								</div>
+								<div>
+									<label><input type="checkbox"> Audio</label>
+								</div>
+								<div>
+									<label><input type="checkbox"> Video</label>
+								</div>
+
+								<br><br>
+								<strong>Folders</strong>
+								<ul>
+									<li>Banners</li>
+									<li>Logos</li>
+									<li>Post Images</li>
+								</ul>
+
+								<br>
+								<strong>Tags</strong>
+								<div>fun, inspirational, ideas, holidays, interiors</div>
+							</td>
+							<td>
+								<div>
+									<div class="image thumb">
+										<small>image1.png
+											<br>Uploaded Apr 12, 2017</small>
+									</div>
+									<div class="image thumb">
+										<small>image1.png
+											<br>Uploaded Apr 12, 2017</small>
+									</div>
+									<div class="image thumb">
+										<small>image1.png
+											<br>Uploaded Apr 12, 2017</small>
+									</div>
+									<div class="image thumb">
+										<small>image1.png
+											<br>Uploaded Apr 12, 2017</small>
+									</div>
+								</div>
+								<div style="clear:both;">
+									<p>Displaying 1 - 6 of 54 Files</p>
+									<div>&lt; 1 2 3 4 ... 10 &gt;</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+
+
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Upload Files -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Upload Files</h1>
+					<form>
+						<div>
+							<label>Select a File</label>
+							<div>
+								<input type="file">
+							</div>
+							<div>
+								<label>Description</label>
+								<div>
+									<textarea rows="10" cols="50"></textarea>
+								</div>
+							</div>
+						</div>
+						<button>Upload</button>
+						<button>Cancel</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Edit File -->
+	<div class="wrap">
+		<table>
+			<tr>
+				<td width="200">
+					<ul>
+						<li><a href="">Dashboard</a></li>
+						<li><a href="">Posts</a></li>
+						<li><a href="">Pages</a></li>
+						<li><a href="">Files</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Users</a></li>
+						<li><a href="">My Profile</a></li>
+					</ul>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>[menu toggle] {Blog Name} <a href="">View Site</a></td>
+							<td style="text-align:right;"><a href="">Sign Out</a></td>
+						</tr>
+					</table>
+
+					<h1>Edit File</h1>
+					<div class="image">
+						<small>Uploaded May 9, 2017 by Crystal Finch</small>
+					</div>
+					<h1>image1.png</h1>
+					<form>
+						<div>
+							<label>Description</label>
+							<div>
+								<textarea rows="10" cols="50">(Metadata description in S3)</textarea>
+							</div>
+						</div>
+						<button>Update</button>
+						<button>Delete</button>
+					</form>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
